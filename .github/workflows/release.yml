@@ -28,7 +28,7 @@ jobs:
 
       - name: Clone the repo and Building package
         run: |
-           git clone https://"alex5402":"${{ secrets.GITHUBTOKEN }}"@github.com/alex5402/android-studio-alex build
+           git clone https://"honeypie112":"${{ secrets.GITHUBTOKEN }}"@github.com/honeypie112/android-studio-alex build
            cd build
            wget https://developer.android.com/studio -O studio.html
            bash update.sh ${{ secrets.BOTTOKEN }}
