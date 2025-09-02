@@ -1,5 +1,5 @@
 pkgname=android-studio-alex
-pkgver=2025.1.2.13
+pkgver=2025.1.3.7
 pkgrel=1
 pkgdesc="The official Android IDE (Stable branch)"
 arch=('i686' 'x86_64')
@@ -14,7 +14,7 @@ options=('!strip')
 source=("https://dl.google.com/dl/android/studio/ide-zips/$pkgver/android-studio-$pkgver-linux.tar.gz"
         "$pkgname.desktop"
         "license.html")
-sha256sums=('9fb9f7e734ab4fefe3c3e2cc02a6d00194252f1a8fc64c77c529a79d313efebb'
+sha256sums=('a5eb77b9398be2943f171076a8abfe219371e78d20302ee199f39a43c88b4294'
             '51eb6978307c0785808758e174c024a82523ec1d6a5c9b8354f446467065caa6'
             '9a7563f7fb88c9a83df6cee9731660dc73a039ab594747e9e774916275b2e23e')
 
